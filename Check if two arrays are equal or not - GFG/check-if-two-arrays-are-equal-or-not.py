@@ -14,7 +14,7 @@ class Solution:
         if t!= b:
             return False
         if A==B:
-            return Tr
+            return True
         else:
             return False
 
