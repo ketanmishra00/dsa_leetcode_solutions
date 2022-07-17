@@ -6,7 +6,7 @@ class Solution:
         t=int((n)/2)
         if n%2!=0:
             return (nums1[t])
-        else:
-            return (nums1[t] + nums1[t-1])/2
+        #else:
+        return (nums1[t] + nums1[t-1])/2
         
         
