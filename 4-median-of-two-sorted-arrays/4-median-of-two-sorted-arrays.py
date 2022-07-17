@@ -3,10 +3,9 @@ class Solution:
         nums1.extend(nums2)
         nums1.sort()
         n=len(nums1)
-        t=int((n)/2)
+        #t=int((n)/2)
         if n%2!=0:
-            return (nums1[t])
-        #else:
-        return (nums1[t] + nums1[t-1])/2
+            return (nums1[int((n)/2)])
+        return (nums1[int((n)/2)] + nums1[int((n)/2)-1])/2
         
         
