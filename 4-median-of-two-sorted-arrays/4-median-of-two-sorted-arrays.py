@@ -5,8 +5,8 @@ class Solution:
         n=len(nums1)
         t=int((n)/2)
         if n%2!=0:
-            m=float(nums1[t])
+            return (nums1[t])
         else:
-            m=(nums1[t] + nums1[t-1])/2
-        return m
+            return (nums1[t] + nums1[t-1])/2
+        
         
