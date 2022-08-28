@@ -7,9 +7,9 @@ class Solution:
             
             m=min(height[j],height[k])
             
-            
             if m*(k-j)>maximum:
                 maximum=m*(k-j)
+            
             if height[j]<height[k]:
                 j+=1
             else:
