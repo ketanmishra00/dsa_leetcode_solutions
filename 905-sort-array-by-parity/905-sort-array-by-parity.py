@@ -7,5 +7,7 @@ class Solution:
                 li_even.append(nums[i])
             else:
                 li_odd.append(nums[i])
+        li_even.sort()
+        li_odd.sort()
         return li_even+li_odd
         
